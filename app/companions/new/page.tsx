@@ -1,6 +1,15 @@
 import CompanionForm from '@/components/CompanionForm'
+import { auth } from '@clerk/nextjs/server';
+import { redirect } from 'next/navigation';
 
-const comapnionForm = () => {
+const comapnionForm = async () => {
+  const { userId } = await auth();
+
+  if (!userId) {
+    redirect('/sign-in');
+  }
+
+
   return (
     <main className='min-lg:w-1/3 min-md:2/3 items-center justify-center pb-5'>
       <article className='w-full gap-4 flex flex-col'>
