@@ -119,7 +119,7 @@ All icons, banners, and illustrations were either:
 
 ## 🖼️ Screenshots
 
-### 🎯 Home Page
+### 🎯 Main Home Page
 ![Home Page](./public/images/Home.png)
 
 ### 🧑‍🏫 Tutor Creation
