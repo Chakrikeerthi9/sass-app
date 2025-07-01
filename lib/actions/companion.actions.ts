@@ -22,10 +22,10 @@ export const getAllCompanions = async ({limit = 10, page= 1, subject, topic}: Ge
     let query = supabase.from('Companions').select();
     
     if(subject && topic) {
-        query = query.ilike('subject', `${subject}%`)
+        query = query.ilike('subject',`%${subject}%`)
         .or(`topic.ilike.%${topic}%,name.ilike.%${topic}%`)
     } else if(subject) {
-        query = query.ilike('subject', `${subject}%`)
+        query = query.ilike('subject', `%${subject}%`)
     } else if(topic) {
         query = query.or(`topic.ilike.%${topic}%,name.ilike.%${topic}%`)
     }

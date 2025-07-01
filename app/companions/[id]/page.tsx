@@ -1,11 +1,11 @@
 import React from 'react'
 
-const companionLib = () => {
+const page = () => {
   return (
     <div>
-      companionLib
+      new
     </div>
   )
 }
 
-export default companionLib
+export default page
