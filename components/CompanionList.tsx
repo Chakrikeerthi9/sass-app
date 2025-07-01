@@ -8,6 +8,7 @@ import {
     TableRow,
   } from "@/components/ui/table"
 import { cn, getSubjectColor } from "@/lib/utils";
+import { Companion } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
   
@@ -20,7 +21,7 @@ interface CompanionListProps {
 const CompanionList = ({ title, companions, className }: CompanionListProps) => {
   return (
     <article className={cn('companion-list', className)}>
-            <h2 className="text-3xl font-bold">Recent Sessions</h2>
+            <h2 className="text-3xl font-bold">{title}</h2>
 
         <Table>
             <TableHeader>
