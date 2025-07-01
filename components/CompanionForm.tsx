@@ -45,13 +45,14 @@ const CompanionForm = () => {
         resolver: zodResolver(formSchema),
         defaultValues: {
           name: "",
-      subject: "",
-      topic: "",
-      voice: "",
-      style: "",
-      duration: 15,
+          subject: "",
+          topic: "",
+          voice: "",
+          style: "",
+          duration: 15,
     },
   })
+
  
   // 2. Define a submit handler.
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
