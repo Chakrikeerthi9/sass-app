@@ -12,7 +12,7 @@
 - [🔋 Features](#-features)
 - [🚀 Getting Started](#-getting-started)
 - [🔗 Assets](#-assets)
-- [🌄 Screenshots](#-screenshots)
+- [🌄 Screenshots](#-Screenshots)
 - [🧪 Live Demo](#-live-demo)
 - [📌 License](#-license)
 - [👤 Author](#-author)
