@@ -12,6 +12,7 @@
 - [🔋 Features](#-features)
 - [🚀 Getting Started](#-getting-started)
 - [🔗 Assets](#-assets)
+- [🌄 Screenshots](#-screenshots)
 - [🧪 Live Demo](#-live-demo)
 - [📌 License](#-license)
 - [👤 Author](#-author)
@@ -113,6 +114,20 @@ All icons, banners, and illustrations were either:
 - GPT-based LLM responses
 
 ---
+
+---
+
+## 🖼️ Screenshots
+
+### 🎯 Home Page
+![Home Page](./public/images/Home.png)
+
+### 🧑‍🏫 Tutor Creation
+![Tutor Creation](./public/images/CompanionCreate.png)
+
+### 🗣️ Voice Chat Interface
+![Voice Chat](./public/images/TutorInterface.png)
+
 
 ## 🧪 Live Demo
 
