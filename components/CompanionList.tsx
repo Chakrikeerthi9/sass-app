@@ -34,9 +34,9 @@ const CompanionList = ({ title, companions, className }: CompanionListProps) => 
             <TableBody>
                 {
                     companions?.map(({id, name, subject, duration, topic})=>(
-                        <TableRow key={id}>
+                        <TableRow key={id + crypto.randomUUID()}>
                             <TableCell>
-                                <Link href={`/companinons/${id}`}>
+                                <Link href={`/companions/${id}`}>
                                     <div className="flex items-center gap-2">
                                         <div className="size-[72px] flex items-center justify-center rounded-lg max-md:hidden"
                                             style={{backgroundColor: getSubjectColor(subject)}}

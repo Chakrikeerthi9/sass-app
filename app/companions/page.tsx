@@ -11,6 +11,7 @@ const Companions = async ({searchParams}: {searchParams: Promise<{ [key: string]
 
   const companions = await getAllCompanions({subject, topic}); 
 
+
   return ( 
     <main>
         <section className="flex justify-between gap-4 max-sm:flex-col">
