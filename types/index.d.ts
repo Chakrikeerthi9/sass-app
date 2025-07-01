@@ -17,6 +17,7 @@ export enum Subject {
   business = "business",
 }
 
+
 export type Companion = Models.DocumentList<Models.Document> & {
   $id: string;
   name: string;
