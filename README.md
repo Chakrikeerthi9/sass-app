@@ -1,3 +1,4 @@
+
 # 🧠 SaaS Voice Tutor App
 
 🎯 Create AI-powered voice-based tutoring sessions with secure authentication, subscriptions, and modern UI using **Next.js**, **Supabase**, **Vapi**, and **Clerk**.
@@ -40,7 +41,7 @@ This is a real-time AI SaaS LMS platform where users can interact with **voice-b
 
 - 🎤 **AI Voice Agents** – Talk to your tutor using Vapi (voice AI)
 - 🔐 **Authentication** – Secure login with Clerk (supports Google login)
-- 💳 **Billing & Plans** – clerk subscription-based access
+- 💳 **Billing & Plans** – Clerk subscription-based access
 - 📌 **Bookmarks** – Save your favorite tutors or sessions
 - 🎯 **Create Your Tutor** – Customize subject, topic, and conversation style
 - 📱 **Responsive UI** – Works seamlessly on all screen sizes
@@ -61,16 +62,15 @@ This is a real-time AI SaaS LMS platform where users can interact with **voice-b
 
 ```bash
 git clone https://github.com/Chakrikeerthi9/sass-app.git
-cd your-saas-voice-app
+cd sass-app
 npm install
+```
 
+### ⚙️ Environment Setup
 
-⚙️ Environment Setup
-Create a .env file in the root and add the following:
+Create a `.env` file in the root and add the following:
 
-env
-Copy
-Edit
+```env
 # Clerk
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
@@ -81,38 +81,57 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 
 # Vapi
 NEXT_PUBLIC_VAPI_WEB_TOKEN=
-Replace the placeholder values with your own API keys from Clerk, Supabase, and Vapi.
+```
 
-🏃 Run the App
+> Replace the placeholder values with your actual API keys from Clerk, Supabase, and Vapi.
 
+### 🏃 Run the App
+
+```bash
 npm run dev
-Open http://localhost:3000 in your browser.
+```
 
-🔗 Assets
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🔗 Assets
+
 All icons, banners, and illustrations were either:
 
-Sourced from the JavaScript Mastery video kit
+- Sourced from the **JavaScript Mastery** video kit
+- Designed using **Lucide Icons** or custom SVGs
 
-Designed using Lucide Icons or custom SVGs
+**UI is styled with:**
 
-UI is styled with:
+- Tailwind CSS  
+- shadcn/ui for modern pre-built components
 
-Tailwind CSS
+**Voice AI powered by:**
 
-shadcn/ui for modern pre-built components
+- Vapi for TTS/STT  
+- GPT-based LLM responses
 
-Voice AI powered by:
+---
 
-Vapi for TTS/STT
+## 🧪 Live Demo
 
-GPT-based LLM responses
+👉 [**Live Site**](https://sass-app-indol.vercel.app/)
 
-👉 Live Site - https://sass-app-indol.vercel.app/
+---
 
-📌 License
-This project is for educational and demonstration purposes only.
-You’re free to fork and adapt with proper credit to referenced tutorials and contributors.
+## 📌 License
 
-👤 Author
-Keerthi Chakri – Full Stack AI Engineer
-www.linkedin.com/in/chakri-keerthi-66246633b • Portfolio • https://github.com/Chakrikeerthi9
+This project is for **educational and demonstration purposes only**.  
+You're free to fork and adapt with proper credit to referenced tutorials and contributors.
+
+---
+
+## 👤 Author
+
+**Keerthi Chakri** – Full Stack AI Engineer  
+[LinkedIn](https://www.linkedin.com/in/chakri-keerthi-66246633b) • [GitHub](https://github.com/Chakrikeerthi9) • *Portfolio Coming Soon*
+
+---
+
+⬆️ [Back to Top](#-saas-voice-tutor-app)
